@@ -1,0 +1,81 @@
+.test{
+    border: 2px solid slateblue;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* ========Logo_Design======= */
+.logo-text{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%; /* 2.7rem */
+}
+/* ========Logo_Design==Ends===== */
+
+/* ================Flex=================Start */
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+
+/* ================Flex=================End */
+
+/* ====================Gap====================== */
+.gap-2_5{
+    gap: 2.5rem;
+}
+/* ====================Gap=====End================= */
+
+
+/* ========= */
+
+
+.style-none{
+    list-style: none;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+/* =======Margit================ */
+.mt-2_5{
+    margin-top: 2.5rem;
+}
+/* =======Margit================Ends== */
+
+/* ======Padding================== */
+.pt-2_5{
+    padding-top: 2.5rem;
+}
+.py-2{
+    padding: 2rem 0;
+}
+/* ======Padding==================Ends== */
+
+/* ======Button-style======= */
+.btn-primary{
+    padding: 1rem 2.5rem;
+    border-radius: 2.625rem;
+    background: #E6533C;
+}
+/* ======Button-style=======Ends== */

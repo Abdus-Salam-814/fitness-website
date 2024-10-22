@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+    min-height: 300px;
+   
+}
+
+header > nav a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.nav-manu-border{
+    border-radius: 2.4375rem;
+    border: 3px solid rgba(255, 255, 255, 0.10);
+    padding-right: 1.25rem;
+
+    /* border: 5px solid black; */
+}
+
