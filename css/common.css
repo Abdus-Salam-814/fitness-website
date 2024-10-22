@@ -1,5 +1,6 @@
 .test{
     border: 2px solid slateblue;
+    min-height: 60px;
 
 }
 
@@ -99,6 +100,9 @@
 }
 .mt-6_25{
     margin-top: 6.25rem;
+}
+.mt-5_5{
+    margin-top: 5.5rem;
 }
 .mx-auto{
     margin: 0 auto;
@@ -207,6 +211,13 @@
 .bottom-8{
     bottom: 8rem;
 }
+.bottom-3{
+    bottom: 3rem;
+}
+
+.left-3{
+    left: 3rem;
+}
 
 
 .top-5{
@@ -221,7 +232,10 @@
 .grid{
     display: grid;
 }
-.grid-cal-4{
+.grid-col-4{
     grid-template-columns: repeat(4, 1fr);
+}
+.grid-col-3{
+    grid-template-columns: repeat(3, 1fr);
 }
 /* =======Grid======Ends */

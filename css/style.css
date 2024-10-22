@@ -117,3 +117,22 @@ line-height: 120%;
     
 }
 /* <!-- Run an Extra Mile Easily section style Ends here  --> */
+
+/* Meet Our Team Section Style started here */
+.meet-img-container img{
+    
+    border-radius: 1.125rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+}
+.meet-title{
+    
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 120%; 
+}
+
+.meet-img-container img{
+    height: 400px;
+    object-fit: cover;
+}
+/* Meet Our Team Section Style Ends here */
