@@ -70,6 +70,10 @@
 .py-2{
     padding: 2rem 0;
 }
+.px-1_5{
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem ;
+}
 /* ======Padding==================Ends== */
 
 /* ======Button-style======= */
@@ -79,3 +83,20 @@
     background: #E6533C;
 }
 /* ======Button-style=======Ends== */
+
+/* =========Display====== */
+
+/* =======Hide====== */
+.hide{
+    display: none;
+}
+/* ========Block====== */
+.block{
+    display: block;
+}
+
+/* ========Inline===== */
+.inline{
+    display: inline;
+}
+/* =========Display======Ends */

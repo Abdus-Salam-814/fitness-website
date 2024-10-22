@@ -1,0 +1,44 @@
+/* Responsive Breakpoint:
+Small device: upto 576 px 
+
+Medium Device: 576px to 992 px 
+
+Large Device: above 993 px  */
+
+
+/* Responsive Mobile Started here */
+@media screen and (max-width: 576px) {
+    .sm-block{
+        display: block;
+    }
+    .sm-hide{
+        display: none;
+    }
+}
+
+/* Responsive Mobile Ends here */
+
+/* Responsive Tab  Started here */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .md-block{
+        display: block;
+    }
+    .md-hide{
+        display: none;
+    }
+}
+
+/* Responsive Tab Ends here */
+/* Responsive PC  Started here */
+
+@media screen and (min-width: 992px) {
+    .lg-block{
+        display: block;
+    }
+    .lg-hide{
+        display: none;
+    }
+}
+
+/* Responsive PC Ends here */

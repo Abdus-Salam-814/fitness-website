@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <title>Fitness</title>
+
+
     <!-- CSS link ADDED -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- Google Fonts Added -->
-
+    <!--  Font awesome Added -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
 </head>
 <body>
     <header>
-        <nav class="container  flex  space-between py-2">
+        <nav class="container  flex items-center  space-between py-2 px-1_5">
             <div class="logo-text">
                 Fitness
             </div>
-            <ul class="flex style-none gap-2_5 nav-manu-border items-center ">
+            <ul class="flex style-none gap-2_5 nav-manu-border items-center sm-hide">
                 <li class="btn-primary">
                     <a href="">Home</a>
                 </li>
@@ -35,6 +39,9 @@
                     <a href="">About</a>
                 </li>
             </ul>
+            <div class=" md-hide lg-hide">
+                <i class="fa-solid fa-bars" style="color: #faf9f9;"></i>
+            </div>
         </nav>
     </header>
 
