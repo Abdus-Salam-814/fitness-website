@@ -46,6 +46,10 @@ Large Device: above 993 px  */
         gap: 1.9rem;
     }
 
+    .sm-px-1_5{
+        padding: 0 1.5rem;
+    }
+
 }
 
 /* Responsive Mobile Ends here */
