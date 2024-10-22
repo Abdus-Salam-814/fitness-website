@@ -14,6 +14,25 @@ Large Device: above 993 px  */
     .sm-hide{
         display: none;
     }
+
+    .sm-flex-col{
+        flex-direction: column;
+    }
+    .sm-w-100{
+        width: 100%;
+    }
+    .banner-img{
+       margin: 0;
+    }
+    .sm-right-0{
+        right: -1rem;
+    }
+    .sm-bottom-16{
+        bottom: 16rem;
+    }
+    .sm-left-3{
+        left: 0.5rem;
+    }
 }
 
 /* Responsive Mobile Ends here */

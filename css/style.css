@@ -45,8 +45,8 @@ letter-spacing: 0.0625rem;
     margin-left: 10.44rem;
 }
 .video-tutorial-cart{
-    width: 12.0625rem;
-    height: 6.125rem;
+
+    padding: 1rem;
     border-radius: 0.75rem;
     border: 1px solid rgba(255, 255, 255, 0.411);
     background: rgba(48, 48, 48, 0.364);
