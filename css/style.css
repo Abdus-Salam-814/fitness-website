@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@font-face {
+    font-family: Miama;
+    src: url(../font/Miama.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -34,7 +41,13 @@ font-weight: 400;
 line-height: 1.25rem; /* 153.846% */
 letter-spacing: 0.0625rem;
 }
+.heading-style-font{
+    font-weight: 400;
+    /* font-family: "Sacramento", cursive; */
+    font-family: Miama;
+    font-size: 9rem;
 
+}
 .nav-manu-border{
     border-radius: 2.4375rem;
     border: 3px solid rgba(255, 255, 255, 0.10);
