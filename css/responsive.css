@@ -28,10 +28,13 @@ Large Device: above 993 px  */
         right: -1rem;
     }
     .sm-bottom-16{
-        bottom: 16rem;
+        bottom: 12rem;
     }
     .sm-left-3{
         left: 0.5rem;
+    }
+    #free-video-title{
+        font-size: 1.5rem;
     }
 }
 
@@ -45,6 +48,16 @@ Large Device: above 993 px  */
     }
     .md-hide{
         display: none;
+    }
+    .md-w-100{
+        width: 100%;
+    }
+    .md-flex-col{
+        flex-direction: column;
+    }
+
+    .md-right-5{
+        right: 5rem;
     }
 }
 
