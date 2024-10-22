@@ -35,13 +35,26 @@
     justify-content: space-between;
 }
 
-
+/* Flex deriction */
+.flex-col{
+    flex-direction: column;
+}
+/* Flex deriction End*/
 
 /* ================Flex=================End */
 
 /* ====================Gap====================== */
 .gap-2_5{
     gap: 2.5rem;
+}
+.gap-1_75{
+    gap: 1.75rem;
+}
+.gap-5_5{
+    gap: 22.5rem;
+}
+.gap-1{
+    gap: 1rem;
 }
 /* ====================Gap=====End================= */
 
@@ -81,6 +94,7 @@
     padding: 1rem 2.5rem;
     border-radius: 2.625rem;
     background: #E6533C;
+    cursor: pointer;
 }
 /* ======Button-style=======Ends== */
 
@@ -100,3 +114,58 @@
     display: inline;
 }
 /* =========Display======Ends */
+
+/* ======Width===== */
+.w-50{
+    width: 50%;
+}
+.w-80{
+    width: 80%;
+}
+.w-75{
+    width: 75%;
+}
+/* ======Width=====End */
+
+.fluid{
+    width: 100%;
+}
+
+/* ====Text====== */
+/* Color text */
+.text-white{
+    color: #fff;
+}
+
+
+/* font size */
+.text-4_75{
+    font-size: 4.75rem;
+}
+/* line hight */
+.lh-5_85{
+    line-height: 5.85rem;
+}
+/* ====Text======End */
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.top-32{
+    top: 32rem;
+}
+.left-7{
+    left: 7rem;
+}
+
+.top-20{
+    top: 7rem;
+}
+.-right-12{
+    right: -5rem;
+}
