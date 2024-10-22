@@ -11,6 +11,9 @@ Large Device: above 993 px  */
     .sm-block{
         display: block;
     }
+    .sm-inline-block{
+        display: inline-block;
+    }
     .sm-hide{
         display: none;
     }
@@ -38,8 +41,11 @@ Large Device: above 993 px  */
     }
     .sm-grid-col-1{
         grid-template-columns: 1fr;
-        gap: 0;
     }
+    .sm-gap-1_9{
+        gap: 1.9rem;
+    }
+
 }
 
 /* Responsive Mobile Ends here */
@@ -67,6 +73,7 @@ Large Device: above 993 px  */
         grid-template-columns: repeat(2, 1fr);
        
     }
+   
 }
 
 /* Responsive Tab Ends here */

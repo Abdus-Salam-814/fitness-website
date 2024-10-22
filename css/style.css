@@ -92,3 +92,28 @@ line-height: 120%;
     line-height: 1.125rem; 
     letter-spacing: 0.01875rem;
 }
+
+/* <!-- Run an Extra Mile Easily section style Started here  --> */
+
+.run-anextra-container{
+    min-height: 129px;
+    /* border: 6px solid salmon; */
+    background: rgba(241, 224, 224, 0.145);
+    padding: 1.875rem 2rem 1.8125rem 3.375rem;
+    gap: 10.3125rem;
+    border-radius: 1.125rem;
+   
+}
+
+.run-extra-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%; 
+}
+
+.run-rxtra-image img{
+    object-fit: cover;
+    border-radius: 1.125rem;
+    
+}
+/* <!-- Run an Extra Mile Easily section style Ends here  --> */
