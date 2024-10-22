@@ -65,7 +65,7 @@ Large Device: above 993 px  */
     }
     .md-grid-col-2{
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
+       
     }
 }
 
