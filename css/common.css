@@ -69,10 +69,37 @@
 .text-decoration-none{
     text-decoration: none;
 }
+.text-center{
+    text-align: center;
+}
+.text-3{
+    font-size: 3rem;
+}
 
+.font-extabold{
+    font-weight: 900;
+
+}
 /* =======Margit================ */
+.mb_88{
+    margin-top: 0.88rem;
+}
+.my-1_88{
+    margin-top: 1.88rem;
+    margin-bottom: 1.88rem;
+}
+.mt-6_25{
+    margin-top: 6.25rem;
+}
+.mx-auto{
+    margin: 0 auto;
+}
 .mt-2_5{
     margin-top: 2.5rem;
+}
+.mt-3_6{
+    margin-top: 3.6rem;
+    
 }
 /* =======Margit================Ends== */
 
@@ -143,8 +170,14 @@
     font-size: 4.75rem;
 }
 /* line hight */
+.lh-1_5{
+    line-height: 1.5rem; 
+}
 .lh-5_85{
     line-height: 5.85rem;
+}
+.lh-3_6{
+    line-height: 120%; /* 3.6rem */
 }
 /* ====Text======End */
 
@@ -167,3 +200,13 @@
 .right-1{
     right: 0rem;
 }
+
+
+/* =======Grid====== */
+.grid{
+    display: grid;
+}
+.grid-cal-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+/* =======Grid======Ends */
