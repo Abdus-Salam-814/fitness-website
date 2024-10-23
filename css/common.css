@@ -31,6 +31,9 @@
 .items-center{
     align-items: center;
 }
+.flex-end{
+    justify-content: end;
+}
 
 .space-between{
     justify-content: space-between;
@@ -75,6 +78,9 @@
 }
 .text-3{
     font-size: 3rem;
+}
+.text-2{
+    font-size: 2rem;
 }
 
 .font-extabold{
@@ -148,6 +154,7 @@
     border-radius: 2.625rem;
     background: #E6533C;
     cursor: pointer;
+    border: none;
 }
 /* ======Button-style=======Ends== */
 
@@ -196,10 +203,17 @@
     color: #fff;
 }
 
+.text-light-blue{
+    color: lightblue;
+}
+
 
 /* font size */
 .text-4_75{
     font-size: 4.75rem;
+}
+.text-1_5{
+    font-size: 1.5rem;
 }
 .text-4_4{
     font-size: 4.375rem;

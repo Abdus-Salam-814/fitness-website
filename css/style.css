@@ -260,3 +260,30 @@ select{
     padding: 3rem;
     
 }
+
+#get-in-tuch-input-fild input{
+    color: #FFF;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+
+
+
+}
+#get-in-tuch-input-fild textarea{
+    height: 7rem;
+    width: 100%;
+    resize: none;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    color: #FFF;
+
+}
+
