@@ -4,7 +4,11 @@ Small device: upto 576 px
 Medium Device: 576px to 992 px 
 
 Large Device: above 993 px  */
-
+@media screen and (max-width: 490px) {
+    .em-hide{
+        display: none;
+    }
+}
 
 /* Responsive Mobile Started here */
 @media screen and (max-width: 576px) {

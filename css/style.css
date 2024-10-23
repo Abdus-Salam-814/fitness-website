@@ -223,13 +223,15 @@ table, thead, tr, td, th{
 
 .table-hedline{
     color: #FFF;
-    font-family: Inter;
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 900;
     line-height: 120%; /* 2.1rem */
 }
 
+.calculate-hedline{
+    font-size: 1.75rem;
+}
 .calculate input{
     color: #FFF;
 
@@ -237,7 +239,7 @@ table, thead, tr, td, th{
     background: rgba(255, 255, 255, 0.10);
     height: 3rem;
     padding: 0.75rem 2.5rem 0.75rem 1.25rem;
-    align-items: center;
+    border: none;
 }
 select{
     color: #FFF;
@@ -246,7 +248,8 @@ select{
     background: rgba(255, 255, 255, 0.10);
     height: 3rem;
     padding: 0.75rem 2.5rem 0.75rem 1.25rem;
-    align-items: center;
+    border: none;
+
 }
 
 #female{
