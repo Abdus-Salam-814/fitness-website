@@ -49,6 +49,14 @@ Large Device: above 993 px  */
     .sm-px-1_5{
         padding: 0 1.5rem;
     }
+    .sm-content-center{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sm-grid-col-span-none{
+        grid-column: 1/span 1;
+    }
 
 }
 

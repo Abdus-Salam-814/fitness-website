@@ -199,3 +199,64 @@ stroke: rgba(255, 255, 255, 0.10);
     letter-spacing: 0.01875rem;
     opacity: 0.7;
 }
+thead{
+    font-weight: 800;
+    font-size: 2.25rem;
+
+}
+
+tbody{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+   
+    opacity: 0.7;
+}
+table, thead, tr, td, th{
+    border: 1px solid slategray;
+    border-collapse: collapse;
+    line-height: 120%; /* 1.2rem */
+    padding: 1.2rem;
+}
+
+.table-hedline{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 2.1rem */
+}
+
+.calculate input{
+    color: #FFF;
+
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.10);
+    height: 3rem;
+    padding: 0.75rem 2.5rem 0.75rem 1.25rem;
+    align-items: center;
+}
+select{
+    color: #FFF;
+
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.10);
+    height: 3rem;
+    padding: 0.75rem 2.5rem 0.75rem 1.25rem;
+    align-items: center;
+}
+
+#female{
+    height: 4.3rem;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+.bmi-calculator-container{
+    background: rgba(255, 255, 255, 0.10);
+    padding: 3rem;
+    
+}
