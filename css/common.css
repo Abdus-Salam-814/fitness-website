@@ -155,6 +155,10 @@
     background: #E6533C;
     cursor: pointer;
     border: none;
+     color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem; 
 }
 /* ======Button-style=======Ends== */
 
